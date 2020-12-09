@@ -1,0 +1,18 @@
+﻿1 Para compilar é necessário utilizar o comando 'javac' seguido do nome e extensão '.java'
+
+
+2 O resultado é erro na compilação, esse erro ocorre, pois, não foi atribuído um valor para a variável contador. Está faltando também os parênteses depois de main. Ex: ‘public static void main(String args[ ])’
+
+
+3 Classe pública, sem retorno (void) 
+variável A do tipo inteira recebe o valor de 9
+ variável V do tipo inteira recebe o valor 0
+Se a variável A for maior que o número 11 E a soma de B + 1 (já que o incremento vem antes ++B) então, mostre na tela A * B
+caso contrário mostre na tela A - B
+
+
+4 Com a estrutura apresentada o código dará erro, mas dentro da estrutura adequada o swtich case verificaria se a variável é igual a um determinado número então faça isso.
+No exemplo, a variável op = 1, então o case 1 imprimiria na tela op (1), o case 2 também é o mesmo caso. E o default é se não houver correspondências antes de chegar nele
+
+
+9 A questão 6 é mais simples, e rápida de ser construída, visualmente mais simples de entender. Entretanto, se mais conteúdo precisa ser colocado na questão 6, se mais pessoas precisassem acessar e modificar ela, o que era fácil se tornaria difícil. Por outro lado, as questões 7 e 8, apesar de parecerem mais complexas, e burocráticas, encaixam-se melhor dentro da POO, respeitando suas regras como a reutilização, modularização.
