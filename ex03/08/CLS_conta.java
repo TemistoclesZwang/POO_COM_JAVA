@@ -34,15 +34,20 @@ public class CLS_conta {
 		return saldo;
 	}
 	
-	void transferir(Conta destino, double valor) {
-
-      this.sacar(valor);
-      this.depositar(valor);
-      
-		//saldo = saldo - valor;
-		//destino.saldo = destino.saldo + valor;
-		this.sacar(valor);
-		destino.depositar(valor);
+	boolean transferir(CLS_conta destino, double valor) {
+		if (this.sacar(valor) == true) {
+			
+			this.sacar(valor);
+			this.depositar(valor);
+			
+			//saldo = saldo - valor;
+			//destino.saldo = destino.saldo + valor;
+			this.sacar(valor);
+			destino.depositar(valor);
+			return true;
+		}else{
+			return false;
+		}
 	}		
 
 }
