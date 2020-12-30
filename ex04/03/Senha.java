@@ -65,8 +65,5 @@ public class Senha {
       return false; // depois de verificar todos char se não tiver número só resta retornar false
    }
    
-   public boolean ehValida() {
-   //como acessar o retorno dos métodos em outro método ?
-      }
    }
 
