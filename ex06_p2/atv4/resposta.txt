@@ -1,0 +1,6 @@
+A - O problema é que o método que está tentando ser acessado (produção de leite)
+não faz parte da classe Animal, e sim da Classe Bovino. Para resolver isso é necessário acessar
+o método informando que ele é da classe Bovino utilizando cast:
+((Bovino) a).setProducaoLeite(5)
+
+B- não, pois todo peixe é animal, mas nem todo animal é um peixe. Quem herda as características da classe Animal é a classe Peixe. No exemplo mostrado está ao contrário
