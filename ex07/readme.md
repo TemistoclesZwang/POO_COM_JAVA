@@ -1,3 +1,5 @@
+- A numeração das questões está comentada no código, classe banco por exemplo.
+
 ## 13
 - A - ignorar o código de erro faz com que o usuário final não saiba o que está acontecendo. Retornar o código de erro faz com que o código se confunda com outros, e que seja necessário a classificação dos códigos.
 
