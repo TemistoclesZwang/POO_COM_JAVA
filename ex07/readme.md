@@ -8,6 +8,6 @@
 
 
 ## 12
-- Pelo que entendi, os catchs estão esperando o mesmo tipo de erro que ocorre dentro do try (runtime exception). Executando o catch.
+- Pelo que entendi, os catchs estão esperando o mesmo tipo de erro que ocorre dentro do try (runtime exception).Assim, executando o catch.
 
 
